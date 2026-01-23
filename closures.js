@@ -1,4 +1,4 @@
-/*function outer(){
+function outer(){
     let message ="Hello";
 
     function inner(){
@@ -9,10 +9,10 @@
     inner();
 }
 
-outer();*/
+outer();
 
 
-/*function createCounter(){
+function createCounter(){
     let count = 0;
 
     function increment(){
@@ -36,7 +36,7 @@ counter.increment();
 counter.increment();
 counter.increment();
 
-console.log(`the current count is ${counter.getCount()}`);*/
+console.log(`the current count is ${counter.getCount()}`);
 
 function createGame() {
     let score = 0;
