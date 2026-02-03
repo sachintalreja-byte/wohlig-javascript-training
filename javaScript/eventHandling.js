@@ -1,6 +1,6 @@
 //event Handlers
 
-function myFunction(){
+/*function myFunction(){
     console.log('I was clicked');
 }
 
@@ -43,4 +43,4 @@ nameInPut.addEventListener('keydown', (e) => {
 
 nameInPut.addEventListener('focus',(e) => {
     console.log('key'.e);
-})
+})*/

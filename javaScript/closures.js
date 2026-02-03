@@ -1,4 +1,4 @@
-function outer(){
+/*function outer(){
     let message ="Hello";
 
     function inner(){
@@ -65,4 +65,4 @@ const game = createGame();
 game.increaseScore(5);
 game.increaseScore(6);
 game.decreaseScore(2);
-console.log(`the final score is ${game.getScore()}pts`);
+console.log(`the final score is ${game.getScore()}pts`);*/

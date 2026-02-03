@@ -1,4 +1,4 @@
-let fruits = ["apple", "orange", "banana"];
+/*let fruits = ["apple", "orange", "banana"];
 
 fruits.push("coconut")
 fruits.pop();
@@ -16,4 +16,4 @@ console.log(fruits[3]);
 let numOfFruits = fruits.length;
 let index = fruits.indexOf("banana");
 
-console.log(index);
+console.log(index);*/

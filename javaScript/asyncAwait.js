@@ -1,4 +1,4 @@
-function walkDog() {
+/*function walkDog() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       const dogWalked = true;
@@ -42,17 +42,17 @@ function takeOutTrash() {
   });
 }
 
-walkDog()
-  .then((value) => {
-    console.log(value);
-    return cleanKitchen();
-  })
+async function doChores(){
+    const WalkDogResult = await walkDog();
+    console.log(WalkDogResult);
 
-  .then((value) => {
-    console.log(value);
-    return takeOutTrash();
-  })
-  .then((value) => {
-    console.log(value);
-    console.log("you finished all the chores");
-  });
+    const cleanKitchenResult = await cleanKitchen();
+    console.log(cleanKitchenResult);
+
+    const takeOutTrashResult = await takeOutTrash();
+    console.log(takeOutTrashResult);
+
+    console.log("You Finished all the chores");
+}
+
+doChores();*/

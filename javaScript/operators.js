@@ -1,5 +1,5 @@
  //assignment operator
- let programmingLanguage = 'javascript';
+ /*let programmingLanguage = 'javascript';
 
 let num1 =14;
 let num2 =10;
@@ -81,7 +81,7 @@ console.log(isRestaurantOpen);
 //Null coalescing operator ??
 let a = null;
 const result = a ?? false;
-console.log(result);
+console.log(result);*/
 
 
 

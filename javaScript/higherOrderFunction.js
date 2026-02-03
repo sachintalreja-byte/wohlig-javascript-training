@@ -1,4 +1,4 @@
-import { posts } from "./posts.js";
+/*import { posts } from "./posts.js";
 
 //forEach
 
@@ -20,4 +20,4 @@ console.log(filterdPosts);
 
 const mappedPosts = filteredPosts.map(post =>{
     return post.id * 10;
-})
+})*/

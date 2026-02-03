@@ -1,4 +1,4 @@
-function* greeting(name){
+/*function* greeting(name){
     yield "Hello"
     yield "How are you"
     yield name
@@ -33,5 +33,5 @@ console.log(getNum.next().value)
 console.log(getNum.next().value)
 console.log(getNum.next().value)
 console.log(getNum.next().value)
-console.log(getNum.next().value)
+console.log(getNum.next().value)*/
 

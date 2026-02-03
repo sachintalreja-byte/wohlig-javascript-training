@@ -1,4 +1,4 @@
-function func1(callback){
+/*function func1(callback){
 
 setTimeout(() => {console.log("Task 1");
                      callback()},3000);
@@ -10,6 +10,6 @@ console.log("Task 4");
 console.log("Task 5");
 }
 
-func1(func2);
+func1(func2);*/
 
 

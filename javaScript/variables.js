@@ -1,5 +1,5 @@
 //string
-let favouriteFruit = 'strawberries';
+/*let favouriteFruit = 'strawberries';
 let favouriteIceCream ='chocolate';
 let favouriteProgramLanguage =' javascript';
 
@@ -64,4 +64,4 @@ sayHi('Sachin');
 function multiply (num1,num2){
     return num1 * num2;
 }
-console.log(multiply (2,2) );
+console.log(multiply (2,2) );*/

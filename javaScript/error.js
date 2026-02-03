@@ -1,4 +1,4 @@
-try{
+/*try{
     console.log(x);
 //network error
 //promise rejection 
@@ -35,4 +35,4 @@ catch(error){
     console.error(error);
 }
 
-console.log("You have reached the end!");
+console.log("You have reached the end!");*/
