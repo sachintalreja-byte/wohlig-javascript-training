@@ -1,4 +1,4 @@
-/*let age = 16;
+let age = 16;
 if (age >= 18){
     console.log("you can vote")
 }else{
@@ -33,4 +33,4 @@ switch (day) {
 
     default:
         console.log("Just a regular day")
-}*/
+}

@@ -1,4 +1,4 @@
-/*function walkDog() {
+function walkDog() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       const dogWalked = true;
@@ -55,4 +55,4 @@ walkDog()
   .then((value) => {
     console.log(value);
     console.log("you finished all the chores");
-  });*/
+  });

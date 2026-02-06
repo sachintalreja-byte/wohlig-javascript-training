@@ -1,4 +1,4 @@
-/*class Animal{
+class Animal{
    alive = true;
    
    eat(){
@@ -41,4 +41,4 @@ console.log(hawk.alive);
 hawk.eat();
 hawk.sleep();
 hawk.fly();
-*/
+

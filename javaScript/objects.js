@@ -1,4 +1,4 @@
-/*const person1 = {
+const person1 = {
     firstName:"spongebob",
     lastName:"Squarepants",
     age:30,
@@ -15,4 +15,4 @@ const person2 ={
 console.log(person2.firstName);
 console.log(person2.lastName);
 console.log(person2.age);
-console.log(person2.isEmployed);*/
+console.log(person2.isEmployed);

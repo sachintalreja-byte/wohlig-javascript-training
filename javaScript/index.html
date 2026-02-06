@@ -5,50 +5,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Document</title> 
     <script src="eventDelegation.js" defer></script>
-    <script>
-      function clickCounter() {
-  const x = document.getElementById("result");
-  if (typeof(Storage) !== "undefined") {
-    if (sessionStorage.clickcount) {
-      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
-    } else {
-      sessionStorage.clickcount = 1;
-    }
-    x.innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session!";
-  } else {
-    x.innerHTML = "Sorry, no Web storage support!";
-  }
-}
-    </script>
+    
   </head>
   <body>
-    <h1> sessionStorage</h1>
+    <div id ="demo">
+      <h2>The XMLTHttpsrequest object</h2>
+      <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
 
-  <!--localStorage-->
-
-   
     <script>
-      const x = document.getElementById("result");
-      if(typeof(Storage) !== "undefined") {
-        localStorage.setItem("lastname","Smith");
-        localStorage.setItem("bgcolor","yellow");
-        
-
-        x.innerHTML = localStorage.getItem("lastname");
-        x.style.backgroundColor = localStorage.getItem("bgcolor"); 
-      } else {
-        x.innerHTML = "Sorry,no web storage support";
+      function loadDoc(){
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function(){
+          document.getElementById("demo").innerHTML = this.responseText;
+        }
+        xhttp.open("GET","ajax_info.txt");
+        xhttp.send();
       }
     </script>
-
-   
-
- <button onclick="clickCounter()" type="button">Click me!</button>
-<p id="result"></p>
-<p>Click the button to see the counter increase.</p>
-<p>Close the browser tab (or window), and try again, and the counter will continue to count.</p> 
-
-
-    
   </body>
+
 </html>

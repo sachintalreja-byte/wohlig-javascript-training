@@ -1,4 +1,4 @@
-/*export default function playGuitar(){
+export default function playGuitar(){
     return "Playing Guitar";
 }
 
@@ -8,4 +8,4 @@ export const plucking =() => {
 
 export const amplifier = () => {
       return "Marshal";
-}*/
+}
